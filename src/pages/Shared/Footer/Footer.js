@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-5 mt-3  px-3">
                         <h2 className="text-center text-uppercase mb-3"><u className="text-warning">About us</u></h2> <br />
-                        <p>Alphamark Tracks is the first and largest web portal about bicycle in Bangladesh. We have started our journey on 23rd August, 2013. We publish bike specifications, price, news, tips, reviews, showroom address and brand details etc. Our basic goal is to provide bicycle related essential data to the visitors in easy way. We also share user experiences and their valuable opinion about their bicycle. So that our visitors can get some idea about the bicycle they are looking for.</p>
+                        <p>AlphaTracks is the first and largest web portal about bicycle in Bangladesh. We have started our journey on 23rd August, 2013. We publish bike specifications, price, news, tips, reviews, showroom address and brand details etc. Our basic goal is to provide bicycle related essential data to the visitors in easy way. We also share user experiences and their valuable opinion about their bicycle. So that our visitors can get some idea about the bicycle they are looking for.</p>
                     </div>
 
                     <div className="col-md-3 mt-3">
@@ -31,7 +31,7 @@ const Footer = () => {
                             <Link style={{ textDecoration: 'none', color: 'white' }} to="/home" className="navItems">Home</Link>
                             <Link style={{ textDecoration: 'none', color: 'white' }} to="/dashboard" className="navItems">Dashboard</Link>
                             <Link style={{ textDecoration: 'none', color: 'white' }} to="/explore" className="navItems">Explore</Link>
-                            <Link style={{ textDecoration: 'none', color: 'white' }} to="" className="navItems" onClick={handleLogout}>logout</Link>
+                            <Link style={{ textDecoration: 'none', color: 'white' }} to="" className="navItems" onClick={handleLogout}>Logout</Link>
                         </div>
                     </div>
 
@@ -40,10 +40,10 @@ const Footer = () => {
                         <h3 className="text-uppercase mb-3"><u className="text-warning">Official Address</u></h3> <br />
                         <div className="d-flex align-items-center justify-content-center">
                             <div className="me-5 text-end">
-                                <p>	Doha, Qatar <br />	Po Box 901106</p>
+                                <p>	Doha, Qatar <br />901106</p>
                             </div>
                             <div className="text-start">
-                                <p>Phone: 	009744806382 <br /> Mail: alphamark@gmail.com</p>
+                                <p>Phone: 	009744806382 <br />alphamark@gmail.com</p>
                             </div>
                         </div>
                         <br /><h4 className="text-uppercase mb-3"><u>Join with us</u></h4><br />

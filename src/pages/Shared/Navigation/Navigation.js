@@ -12,7 +12,7 @@ const Navigation = () => {
                 <Container>
                     <Navbar.Brand >
                         <NavLink to="/" style={{ textDecoration: 'none' }}>
-                            <h2 style={{ color: 'white' }}>Auto<span style={{ color: 'red' }}>X</span></h2>
+                            <h2 style={{ color: 'white' }}>Alpha<span style={{ color: 'red' }}>Tracks</span></h2>
                         </NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle />
@@ -43,7 +43,7 @@ const Navigation = () => {
                                 <button onClick={handleLogout} className="btn btn-light ms-3">Logout</button></>
                                 :
                                 <NavLink to="/login">
-                                    <button className="btn btn-light ms-3">login</button>
+                                    <button className="btn btn-light ms-3">Login</button>
                                 </NavLink>
                         }
                     </Navbar.Collapse>
