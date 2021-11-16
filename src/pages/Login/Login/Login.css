@@ -1,0 +1,61 @@
+
+.login-container{
+    
+    background-image: url("https://i.ibb.co/KFDd4d6/photo-1475666675596-cca2035b3d79-ixid-Mnwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-N3x8-Y3ljb-Glu-Z3xlbnwwf-Hwwf-H.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.login-form-container{
+    width: 500px;
+    background: -webkit-radial-gradient(White,Orange);
+    padding:5px;
+    border-radius: 15%;
+}
+
+.login-form-container .login-title{
+    color: green;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login-form input, .login-form button{
+    padding: 10px;
+    margin: 10px 20px;
+    outline: none;
+    border-radius: 12px;
+}
+
+.or{
+    background: white;
+    margin-top: -30px;
+}
+
+.regular-btn{
+    border: none;
+    outline: none;
+    background-color: #f55b50;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.regular-btn:hover{
+    background-color: #d13429;
+}
+
+.google-login-container{
+    background-color: #ddd0cf;
+    border-radius: 40px;
+    border: 1px solid rgb(138, 137, 137);
+    cursor: pointer;
+}
+.google-login-container:hover{
+    background-color: #fad7d4;
+}
